@@ -10,6 +10,12 @@ header{
     justify-content: center;
 }
 
+@media (min-width: 320px) {
+    body {
+        display: grid;
+    }
+}
+
 .logo h2{
     color: #fff;
     font-size: 30px;
